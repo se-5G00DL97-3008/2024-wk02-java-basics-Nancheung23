@@ -6,15 +6,15 @@ class E08 {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             try {
-                System.out.println("Enter a number (0 to quit):");
+                System.out.println("Give a number (0 to quit):");
                 int nextNumber = scanner.nextInt();
                 if (nextNumber == 0) {
                     break;
                 } else {
                     if (nextNumber % 2 == 1) {
-                        System.out.println("Odd number");
+                        System.out.println("Number is odd");
                     } else if (nextNumber % 2 == 0) {
-                        System.out.println("Even number");
+                        System.out.println("Number is even");
                     }
                 }
             } catch (InputMismatchException e) {

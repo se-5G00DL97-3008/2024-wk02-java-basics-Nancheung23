@@ -12,8 +12,8 @@ class E02 {
             System.out.println("Give another number:");
             double b = scanner.nextDouble();
             System.out.printf("%.0f + %.0f = %.0f\n",a,b,addFunc(a,b));
-            System.out.printf("%.0f * %.0f = %.0f\n",a,b,multipleFunc(a,b));
             System.out.printf("%.0f - %.0f = %.0f\n",a,b,subtractFunc(a,b));
+            System.out.printf("%.0f x %.0f = %.0f\n",a,b,multipleFunc(a,b));
             System.out.printf("%.0f / %.0f = %.0f\n",a,b,divideFunc(a,b));
         } catch (InputMismatchException e){
             System.out.println("Input number!");

@@ -19,8 +19,8 @@ class E07 {
         }
     }
     public static void multiplication(double multiplicand, int multiplier) {
-        for (int i = 1; i <= multiplier; i++) {
-            System.out.printf("%.0f x %d = %.0f\n", multiplicand, multiplier, multiplicand * multiplier);
+        for (int i = 0; i <= multiplier; i++) {
+            System.out.printf("%d x %.0f = %.0f\n", i, multiplicand, multiplicand * i);
         }
     }
 }
