@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 class E07 {
     public static void main(String[] args) {
-        System.out.println("Which multiplicand multiplication table to show?");
+        System.out.println("Which multiplication table to show?");
         try {
             Scanner scanner = new Scanner(System.in);
             double multiplicand = scanner.nextDouble();
-            System.out.println("Until which multiplier?");
+            System.out.println("Until which multiplier should the table show?");
             int multiplier = scanner.nextInt();
             if (multiplier > 1) {
                 multiplication(multiplicand,multiplier);
