@@ -7,9 +7,9 @@ class E02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         try {
-            System.out.println("Give a number:");
+            System.out.println("Give a number: ");
             double a = scanner.nextDouble();
-            System.out.println("Give a number:");
+            System.out.println("Give a number: ");
             double b = scanner.nextDouble();
             System.out.printf("%.0f + %.0f = %.0f\n",a,b,addFunc(a,b));
             System.out.printf("%.0f - %.0f = %.0f\n",a,b,subtractFunc(a,b));
